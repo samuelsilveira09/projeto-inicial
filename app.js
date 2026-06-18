@@ -42,7 +42,7 @@ if (numeroDigitado == numeroSecreto) {
 };*/
 
 alert('Boas vindas ao jogo do número secreto');
-let numeroMaximo = 6000;
+let numeroMaximo = 8000;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 console.log(numeroSecreto);
 let numeroDigitado;
